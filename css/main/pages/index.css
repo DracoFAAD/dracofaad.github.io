@@ -1,0 +1,223 @@
+@import "../base.css";
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.introductionIcon {
+    height: 50%;
+    z-index: -1;
+    opacity: 0;
+    position: absolute;
+    animation-name: introductionIconEnter;
+    animation-duration: 5s;
+    border-radius: 100%;
+    border: 10px solid black;
+    animation-iteration-count: infinite;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.introductionText {
+    font-size: 70px;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.introductionTextSmall {
+    font-size: 30px;
+    text-align: center;
+}
+
+.introductionTextSmall .span1 {
+    color: #E06C75;
+}
+
+.introductionTextSmall .span2 {
+    color: gray;
+}
+
+.examples, .languages {
+    padding-top: 10px;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    font-size: 50px;
+    padding: 0 20px;
+    border-bottom: 1px solid white;
+}
+
+.headerUnderline {
+    height: 1px;
+    width: 300px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.header2Container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header2 {
+    font-size: 30px;
+}
+
+.languages .headerContainer {
+    margin-bottom: 30px;
+}
+
+.normalLanguageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.programmingLanguageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.normalLanguage {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    height: 50px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.normalLanguage:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.normalLanguageImage {
+    height: 50px;
+    width: 50px;
+    object-fit: scale-down;
+}
+
+.normalLanguageVR {
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    margin: 0px 10px;
+}
+
+.normalLanguageContent {
+    font-size: 20px;
+}
+
+.normalLanguageRating {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.cover {
+    object-fit: cover !important;
+}
+
+@keyframes introductionIconEnter {
+    0% {
+        opacity: 0;
+        transform: scale(0, 0);
+    }
+
+    50% {
+        opacity: 0.2;
+        transform: scale(1, 1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.aboutmeContent {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px 20px;
+    margin: 30px 20px 0px 20px;
+    font-size: 20px;
+}
+
+.aboutmeContent span {
+    color: #E06C75;
+}
+
+@media only screen and (max-width: 800px) {
+    .introductionIcon {
+        animation: none;
+        opacity: 25%;
+        width: 50%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .introductionText {
+        font-size: 45px;
+    }
+
+    .introductionTextSmall {
+        font-size: 20px;
+    }
+
+    .aboutmeContent  {
+        font-size: 15px;
+        padding: 7px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .header {
+        font-size: 40px;
+    }
+
+    .header2 {
+        font-size: 20px;
+    }
+
+    .normalLanguageContent {
+        font-size: 17px;
+    }
+
+    .normalLanguageRating {
+        font-size: 15px;
+    }
+}

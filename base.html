@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DracoFAAD</title>
+    <link rel="stylesheet" href="./css/main/pages/index.css">
+</head>
+<body>
+    <div class="navigationContainer">
+        <div class="navigationIconContainer">
+            <a href="./" class="navigationIcon">
+                <p class="navigationIconText">DracoFAAD</p>
+                <p class="navigationIconTextMobile">Draco</p>
+            </a>
+        </div>
+        <div class="navigationTabContainer" id="navigationTabContainer">
+            <div class="navigationTab">
+                <a class="navigationButton navigationSelectedTab" href="./">
+                    <p translationId="navigation_portfolio_tab" class="translatable navigationButtonText">Portfolio</p>
+                </a>
+            </div>
+            <div class="navigationTab">
+                <a class="navigationButton" href="./contact.html">
+                    <p translationId="navigation_contact_tab" class="translatable navigationButtonText">Contact</p>
+                </a>
+            </div>
+            <div class="navigationTab">
+                <a class="navigationButton" href="./projects.html">
+                    <p translationId="navigation_projects_tab" class="translatable navigationButtonText">Projects</p>
+                </a>
+            </div>
+        </div>
+        <div class="navigationLanguageSelector">
+            <button onclick="onNavigationLanguageButtonClick()" class="navigationLanguageButton">
+                <img src="images/language.png" alt="" class="navigationLanguageButtonIcon">
+            </button>
+            <div id="navigationLanguagePopup" class="hidden navigationLanguagePopup">
+                <button onclick="changeLanguage('en_us')">English</button>
+                <button onclick="changeLanguage('de_de')">Deutsch</button>
+                <button onclick="changeLanguage('tr_tr')">Türkçe</button>
+            </div>
+        </div>
+        <div class="navigationMenuIconContainer">
+            <button class="navigationMenuButton" id="navigationMenuButton">
+                <img src="images/menu.png" alt="" class="navigationMenuButtonIcon">
+            </button>
+        </div>
+        <script>
+            document.getElementById("navigationMenuButton").addEventListener("click", () => {
+                const tabContainer = document.getElementById("navigationTabContainer")
+                if (tabContainer.classList.contains("navigationTabVisible")) {
+                    tabContainer.classList.remove("navigationTabVisible")
+                } else {
+                    tabContainer.classList.add("navigationTabVisible")
+                }
+            })
+        </script>
+    </div>
+
+    <img src="./images/BackgroundPattern.png" alt="BackgroundImage" class="backgroundImage">
+
+
+</body>
+</html>

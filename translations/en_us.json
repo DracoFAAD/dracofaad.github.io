@@ -1,0 +1,21 @@
+{
+    "index_introductionText": "I am<br><b>DracoFAAD</b>",
+    "index_introductionTextSmall": "<span class=\"span2\">&lt;</span><span class=\"span1\">p</span><span class=\"span2\">&gt;</span>A developer<span class=\"span2\">&lt;/</span><span class=\"span1\">p</span><span class=\"span2\">&gt</span>",
+    
+    "navigation_portfolio_tab": "Portfolio",
+    "navigation_projects_tab": "Projects",
+    "navigation_contact_tab": "Contact",
+    
+    "index_aboutme_header": "About me",
+    "index_aboutme_content": "Hello! I am a 15 year old boy, who fell in love with programming at the age of 10! Which most people would call a pretty young age to start, but I don't believe in that. Everyone at every age has a chance to learn programming. The only thing you need is to be able to read and be able to speak english (so that you understand the programming languages)!<br><br>I first started learning <span>C#</span>, like create console applications and make the user be able to interact with the console trough typing. I created some starter games, like a door guesser, etc. After that, I started a new phase: I found roblox studio. I first learnt standard <span>Lua</span>, but after that I started learning <span>Luau</span> (The language that roblox uses). I made some games with my friend, but being limited to 2 (3 if you include Luau) programming languages was not enough for me, so I started learning <span>Java</span>. <br><br>I was thinking of ways to use <span>Java</span>, when I remembered: I play minecraft and there is a way to create plugins & mods for it using <span>Java</span>. However, I first started creating only Plugins. I created alot of plugins, and still do today. Most of the plugins used ideas, which already existed on the market. But there are also some who are really unique. You can find some of the unique ones in the examples tab. <br><br>\"3 languages only? I can do more.\" With this motivation, I have learnt <span>html</span>, <span>js</span> & <span>css</span> and created some websites (you are viewing one of the websites rn! Created: 03.06.2024). To further train myself, I have done 2 Internships, where I learnt about using Frameworks and <span>PHP</span>.<br><br>Then... I got into game development. I had first used <span>Unity</span> but after the pricing change in 2023, I was searching for alternatives and found <span>Unreal</span> which I still use to this day. And I only have one project in it, which I still work on: <span>SleepParalyza</span>.<br><br>",
+
+    "index_normalLanguage_turkish": "Turkish",
+    "index_normalLanguage_english": "English",
+    "index_normalLanguage_german": "German",
+    "index_normalLanguage_header": "Languages",
+    "index_normalLanguage_headerNormal": "Normal Languages",
+    "index_normalLanguage_headerProgramming": "Programming Languages",
+    
+    "index_examples_header": "Examples"
+
+}

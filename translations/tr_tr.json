@@ -1,0 +1,20 @@
+{
+    "index_introductionText": "Ben <br><b>DracoFAAD'ım</b>",
+    "index_introductionTextSmall": "<span class=\"span2\">&lt;</span><span class=\"span1\">p</span><span class=\"span2\">&gt;</span>Programcı<span class=\"span2\">&lt;/</span><span class=\"span1\">p</span><span class=\"span2\">&gt</span>",
+    
+    "navigation_portfolio_tab": "Portföy",
+    "navigation_projects_tab": "Projeler",
+    "navigation_contact_tab": "İletişim",
+
+    "index_aboutme_header": "Benim hakkımda",
+    "index_aboutme_content": "Merhaba! Ben onuncu yaşında programlamaya aşık olan 15 yaşında bir çocuğum!  Çoğu insan buna başlamak için oldukça genç bir yaş diyebilir ama ben buna inanmıyorum. Her yaştan herkesin programlama öğrenme şansı var. İhtiyacınız olan tek şey okuyabilmek ve İngilizce konuşabilmek (böylece programlama dillerini anlayabilirsiniz)<br><br>İlk olarak <span>C#</span> öğrenmeye başladım, konsol uygulamaları oluşturmak ve kullanıcının yazarak konsolla etkileşime girmesini sağlamak gibi. Kapı tahmincisi gibi bazı başlangıç oyunları yarattım. Ondan sonra yeni bir aşamaya başladım: Roblox stüdyosunu buldum. İlk önce standart <span>Lua</span> öğrendim, ancak bundan sonra <span>Luau</span>'yu (roblox'un kullandığı dil) öğrenmeye başladım. Arkadaşımla bazı oyunlar yaptık, ancak 2 (<span>Luau</span>'yu da dahil ederseniz 3) programlama diliyle sınırlı olmak benim için yeterli değildi, bu yüzden <span>Java</span> öğrenmeye başladım.<br><br><span>Java</span>'yı kullanmanın yollarını düşünüyordum ki aklıma geldi: Minecraft oynuyorum ve <span>Java</span> kullanarak bunun için eklentiler ve modlar oluşturmanın bir yolu var. Ancak, ilk önce sadece Eklentiler oluşturmaya başladım. Çok sayıda eklenti yarattım ve bugün hala yaratıyorum. Eklentilerin çoğu piyasada zaten var olan fikirleri kullandı. Ancak benzersiz olanlar da var. Benzersiz olanlardan bazılarını örnekler sekmesinde bulabilirsiniz.<br><br>\"Sadece 3 dil mi? Daha fazlasını yapabilirim.” Bu motivasyonla <span>html</span>, <span>js</span> & <span>css</span> öğrendim ve bazı web siteleri oluşturdum (şu anda web sitelerinden birini görüntülüyorsunuz! Oluşturma: 03.06.2024). Kendimi daha fazla eğitmek için, Iskeletler ve <span>PHP</span> kullanmayı öğrendiğim 2 Staj yaptım.<br><br>Ondan sonra... oyun geliştirmeye başladım. İlk olarak <span>Unity</span> kullanmıştım ancak 2023'teki fiyat değişikliğinden sonra alternatifler arıyordum ve bugüne kadar hala kullandığım <span>Unreal</span>'ı buldum. Ve hala üzerinde çalıştığım sadece bir projem var: <span>SleepParalyza</span>. ",
+
+    "index_normalLanguage_turkish": "Türkçe",
+    "index_normalLanguage_english": "Ingilizce",
+    "index_normalLanguage_german": "Almanca",
+    "index_normalLanguage_header": "Diller",
+    "index_normalLanguage_headerNormal": "Normal dilleri",
+    "index_normalLanguage_headerProgramming": "Programlama dilleri",
+
+    "index_examples_header": "Örnekler"
+}

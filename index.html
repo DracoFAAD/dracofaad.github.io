@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of DracoFAAD : A developer.">
+
+    <title>DracoFAAD</title>
+    <link rel="stylesheet" href="./css/main/pages/index.css">
+    <link rel="shortcut icon" href="./images/DracoIcon.jpg" type="image/x-icon">
+    <script src="./js/handleTranslations.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="navigationContainer">
+        <div class="navigationIconContainer">
+            <a href="./" class="navigationIcon">
+                <p class="navigationIconText">DracoFAAD</p>
+                <p class="navigationIconTextMobile">Draco</p>
+            </a>
+        </div>
+        <div class="navigationTabContainer" id="navigationTabContainer">
+            <div class="navigationTab">
+                <a class="navigationButton navigationSelectedTab" href="./">
+                    <p translationId="navigation_portfolio_tab" class="translatable navigationButtonText">Portfolio</p>
+                </a>
+            </div>
+            <div class="navigationTab">
+                <a class="navigationButton" href="./contact.html">
+                    <p translationId="navigation_contact_tab" class="translatable navigationButtonText">Contact</p>
+                </a>
+            </div>
+            <div class="navigationTab">
+                <a class="navigationButton" href="./projects.html">
+                    <p translationId="navigation_projects_tab" class="translatable navigationButtonText">Projects</p>
+                </a>
+            </div>
+        </div>
+        <div class="navigationLanguageSelector">
+            <button onclick="onNavigationLanguageButtonClick()" class="navigationLanguageButton">
+                <img src="images/language.png" alt="" class="navigationLanguageButtonIcon">
+            </button>
+            <div id="navigationLanguagePopup" class="hidden navigationLanguagePopup">
+                <button onclick="changeLanguage('en_us')">English</button>
+                <button onclick="changeLanguage('de_de')">Deutsch</button>
+                <button onclick="changeLanguage('tr_tr')">Türkçe</button>
+            </div>
+        </div>
+        <div class="navigationMenuIconContainer">
+            <button class="navigationMenuButton" id="navigationMenuButton">
+                <img src="images/menu.png" alt="" class="navigationMenuButtonIcon">
+            </button>
+        </div>
+        <script>
+            document.getElementById("navigationMenuButton").addEventListener("click", () => {
+                const tabContainer = document.getElementById("navigationTabContainer")
+                if (tabContainer.classList.contains("navigationTabVisible")) {
+                    tabContainer.classList.remove("navigationTabVisible")
+                } else {
+                    tabContainer.classList.add("navigationTabVisible")
+                }
+            })
+        </script>
+    </div>
+
+    <img src="./images/BackgroundPattern.png" alt="BackgroundImage" class="backgroundImage">
+
+
+    <div class="introduction">
+        <img src="./images/DracoIcon.jpg" alt="Background" class="introductionIcon">
+        <p translationId="index_introductionText" class="translatable introductionText"></p>
+        <p translationId="index_introductionTextSmall" class="translatable introductionTextSmall"></p>
+    </div>
+
+    <div class="aboutme borderBottom">
+        <div class="headerContainer">
+            <p translationId="index_aboutme_header" class="header translatable">About me</p>
+        </div>
+        <p translationId="index_aboutme_content" class="aboutmeContent translatable">
+            Hello! I am a 15 year old boy, who fell in love with programming at the age of 10! Which most people would call a pretty young age to start, but I don't believe in that. Everyone at every age has a chance to learn programming. The only thing you need is to be able to read and be able to speak english (so that you understand the programming languages)! <br><br>
+            I first started learning <span>C#</span>, like create console applications and make the user be able to interact with the console trough typing. I created some starter games, like a door guesser, etc. After that, I started a new phase: I found roblox studio. I first learnt standard <span>Lua</span>, but after that I started learning <span>Luau</span> (The language that roblox uses). I made some games with my friend, but being limited to 2 (3 if you include Luau) programming languages was not enough for me, so I started learning <span>Java</span>. <br><br>
+            I was thinking of ways to use <span>Java</span>, when I remembered: I play minecraft and there is a way to create plugins & mods for it using <span>Java</span>. However, I first started creating only Plugins. I created alot of plugins, and still do today. Most of the plugins used ideas, which already existed on the market. But there are also some who are really unique. You can find some of the unique ones in the examples tab. <br><br>
+            "3 languages only? I can do more." With this motivation, I have learnt <span>html</span>, <span>js</span> & <span>css</span> and created some websites (you are viewing one of the websites rn! Created: 03.06.2024). To further train myself, I have done 2 Internships, where I learnt about using Frameworks and <span>PHP</span>.<br><br>
+            Then... I got into game development. I had first used <span>Unity</span> but after the pricing change in 2023, I was searching for alternatives and found <span>Unreal</span> which I still use to this day. And I only have one project in it, which I still work on: <span>SleepParalyza</span>.
+            <br><br>
+            {{End of about me}}
+        </p>
+    </div>
+    
+    <div class="languages borderBottom">
+        <div class="headerContainer">
+            <p translationId="index_normalLanguage_header" class="header translatable">Languages</p>
+        </div>
+
+        <div class="header2Container">
+            <p translationId="index_normalLanguage_headerNormal" class="header2 translatable">Normal Languages</p>
+        </div>
+
+        <div class="normalLanguageContainer">
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/countries/turkeyFlag.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p translationId="index_normalLanguage_turkish" class="translatable normalLanguageContent">Turkish</p>
+                <p class="normalLanguageRating">5 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/countries/germanyFlag.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p translationId="index_normalLanguage_german" class="translatable normalLanguageContent">German</p>
+                <p class="normalLanguageRating">5 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/countries/usaFlag.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p translationId="index_normalLanguage_english" class="translatable normalLanguageContent">English</p>
+                <p class="normalLanguageRating">4 / 5</p>
+            </div>
+        </div>
+
+        <div class="header2Container">
+            <p translationId="index_normalLanguage_headerProgramming" class="header2 translatable">Programming Languages</p>
+        </div>
+
+        <div class="programmingLanguageContainer">
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/luaIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">LUA</p>
+                <p class="normalLanguageRating">5 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/csIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">C#</p>
+                <p class="normalLanguageRating">5 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/javaIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">Java</p>
+                <p class="normalLanguageRating">5 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/htmlIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">HTML</p>
+                <p class="normalLanguageRating">5 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/jsIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">JS</p>
+                <p class="normalLanguageRating">5 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/cssIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">CSS</p>
+                <p class="normalLanguageRating">4 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/phpIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">PHP</p>
+                <p class="normalLanguageRating">4 / 5</p>
+            </div>
+            <div class="normalLanguage">
+                <img class="normalLanguageImage" src="./images/programmingLanguages/cppIcon.png" alt="">
+                <div class="normalLanguageVR"></div>
+                <p class="normalLanguageContent">C++</p>
+                <p class="normalLanguageRating">3 / 5</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="examples">
+        <div class="headerContainer">
+            <p translationId="index_examples_header" class="header translatable">Examples</p>
+        </div>
+    </div>
+
+</body>
+</html>

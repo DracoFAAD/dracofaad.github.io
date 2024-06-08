@@ -1,0 +1,31 @@
+
+/*
+- CREDITS -
+
+LinkTree - https://linktr.ee/dracofaad
+
+# DO NOT REMOVE THIS.
+*/
+
+:root {
+    --navigation-font-family: "Montserrat", sans-serif;
+    --navigation-background: var(--navigation-background-color);
+
+    --navigation-icon-color: white;
+    --navigation-icon-padding: 0;
+    --navigation-icon-margin: 10px 20px;
+    --navigation-icon-size: 30px;
+
+    --navigation-button-font-size: 15px;
+    --navigation-button-bg: transparent;
+    --navigation-button-border: none;
+    --navigation-button-padding: 0px 20px;
+    --navigation-button-margin: 0;
+    --navigation-button-hover-bg-color: rgb(50, 50, 50);
+    --navigation-button-click-bg-color: rgb(100, 100, 100);
+    --navigation-button-animation: background-color 0.5s;
+    --navigation-selected-font-color: white;
+    --navigation-unselected-font-color: gray;
+
+    --navigation-menu-button-icon-padding: 10px;
+}

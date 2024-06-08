@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DracoFAAD</title>
+    <link rel="stylesheet" href="./css/main/pages/index.css">
+    <link rel="stylesheet" href="./css/main/pages/contact.css">
+    <link rel="shortcut icon" href="./images/DracoIcon.jpg" type="image/x-icon">
+
+    <script src="./js/handleTranslations.js"></script>
+
+</head>
+<body>
+    <div class="navigationContainer">
+        <div class="navigationIconContainer">
+            <a href="./" class="navigationIcon">
+                <p class="navigationIconText">DracoFAAD</p>
+                <p class="navigationIconTextMobile">Draco</p>
+            </a>
+        </div>
+        <div class="navigationTabContainer" id="navigationTabContainer">
+            <div class="navigationTab">
+                <a class="navigationButton navigationSelectedTab" href="./">
+                    <p translationId="navigation_portfolio_tab" class="translatable navigationButtonText">Portfolio</p>
+                </a>
+            </div>
+            <div class="navigationTab">
+                <a class="navigationButton" href="./contact.html">
+                    <p translationId="navigation_contact_tab" class="translatable navigationButtonText">Contact</p>
+                </a>
+            </div>
+            <div class="navigationTab">
+                <a class="navigationButton" href="./projects.html">
+                    <p translationId="navigation_projects_tab" class="translatable navigationButtonText">Projects</p>
+                </a>
+            </div>
+        </div>
+        <div class="navigationLanguageSelector">
+            <button onclick="onNavigationLanguageButtonClick()" class="navigationLanguageButton">
+                <img src="images/language.png" alt="" class="navigationLanguageButtonIcon">
+            </button>
+            <div id="navigationLanguagePopup" class="hidden navigationLanguagePopup">
+                <button onclick="changeLanguage('en_us')">English</button>
+                <button onclick="changeLanguage('de_de')">Deutsch</button>
+                <button onclick="changeLanguage('tr_tr')">Türkçe</button>
+            </div>
+        </div>
+        <div class="navigationMenuIconContainer">
+            <button class="navigationMenuButton" id="navigationMenuButton">
+                <img src="images/menu.png" alt="" class="navigationMenuButtonIcon">
+            </button>
+        </div>
+        <script>
+            document.getElementById("navigationMenuButton").addEventListener("click", () => {
+                const tabContainer = document.getElementById("navigationTabContainer")
+                if (tabContainer.classList.contains("navigationTabVisible")) {
+                    tabContainer.classList.remove("navigationTabVisible")
+                } else {
+                    tabContainer.classList.add("navigationTabVisible")
+                }
+            })
+        </script>
+    </div>
+    
+    <img src="./images/BackgroundPattern.png" alt="BackgroundImage" class="backgroundImage">
+
+    <div class="contact">
+        <p class="contactText">My Socials:</p>
+        <div class="contactButtonsContainer">
+            <a href="https://discord.gg/66HaScftd2" target="_blank" class="contactButton discord">
+                <img src="images/discord-mark-blue.png" alt="DiscordLogo">
+            </a>
+            <a href="https://www.roblox.com/users/782399409/profile" target="_blank" class="contactButton roblox">
+                <p>Roblox</p>
+            </a>
+            <a href="https://fiverr.com" target="_blank" class="contactButton fiverr">
+                <p>Fiverr</p>
+            </a>
+        </div>
+
+        <p class="contactText2">My Email:</p>
+        <p class="contactText3"><a href="mailto:draco03draco@gmail.com">draco03draco@gmail.com</a> || <a href="mailto:draco04draco@gmail.com">draco04draco@gmail.com</a></p>
+
+    </div>
+</body>
+</html>

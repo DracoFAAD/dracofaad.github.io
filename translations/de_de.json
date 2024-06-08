@@ -1,0 +1,20 @@
+{
+    "index_introductionText": "Ich bin<br><b>DracoFAAD</b>",
+    "index_introductionTextSmall": "<span class=\"span2\">&lt;</span><span class=\"span1\">p</span><span class=\"span2\">&gt;</span>Ein Programmierer<span class=\"span2\">&lt;/</span><span class=\"span1\">p</span><span class=\"span2\">&gt</span>",
+    
+    "index_aboutme_header": "Über mich",
+    "index_aboutme_content": "Hallo! Ich bin ein 15 Jahre alter Junge, der sich im Alter von 10 Jahren in die Programmierung verliebt hat! Die meisten würden sagen, dass das ein ziemlich junges Alter ist, um damit anzufangen, aber ich glaube nicht daran. Jeder hat in jedem Alter die Möglichkeit, Programmieren zu lernen. Das Einzige, was man braucht, ist, dass man lesen und Englisch sprechen kann (damit man die Programmiersprachen versteht)!<br><br>Ich habe zuerst angefangen, <span>C#</span> zu lernen, um Konsolenanwendungen zu erstellen und den Benutzer in die Lage zu versetzen, durch Schreiben mit der Konsole zu interagieren. Ich habe ein paar erste Spiele entwickelt, wie z.B. einen Türsucher usw. Danach begann ich eine neue Phase: Ich fand roblox studio. Zuerst lernte ich Standard-<span>Lua</span>, aber danach begann ich <span>Luau</span> zu lernen (die Sprache, die roblox verwendet). Ich habe ein paar Spiele mit meinem Freund gemacht, aber die Beschränkung auf 2 (3, wenn man <span>Luau</span> mitzählt) Programmiersprachen war mir nicht genug, also habe ich angefangen, <span>Java</span> zu lernen.<br><br>Ich überlegte mir, wie ich <span>Java</span> einsetzen könnte, als ich mich erinnerte: Ich spiele Minecraft und es gibt eine Möglichkeit, mit <span>Java</span> Plugins und Mods dafür zu erstellen. Allerdings habe ich zunächst nur Plugins erstellt. Ich habe eine Menge Plugins erstellt und tue das auch heute noch. Die meisten Plugins haben Ideen verwendet, die es schon auf dem Markt gab. Aber es gibt auch einige, die wirklich einzigartig sind. Sie können einige der einzigartigen unten in den Beispielen finden.<br><br>\"Nur 3 Sprachen? Ich kann mehr.\" Mit dieser Motivation habe ich <span>html</span>, <span>js</span> & <span>css</span> gelernt und einige Websites erstellt (Sie sehen gerade eine der Websites! Erstellt: 03.06.2024). Um mich weiterzubilden, habe ich 2 Praktika gemacht, in denen ich den Umgang mit Frameworks und <span>PHP</span> gelernt habe. Dann... bin ich in die Spieleentwicklung eingestiegen. Zuerst hatte ich <span>Unity</span> benutzt, aber nach der Preisänderung im Jahr 2023 habe ich nach Alternativen gesucht und bin auf <span>Unreal</span> gestoßen, das ich bis heute benutze. Und ich habe nur ein Projekt darin, an dem ich immer noch arbeite: <span>SleepParalyza</span>.",
+
+    "navigation_portfolio_tab": "Portfolio",
+    "navigation_projects_tab": "Projekte",
+    "navigation_contact_tab": "Kontakte",
+
+    "index_normalLanguage_turkish": "Türkisch",
+    "index_normalLanguage_english": "Englisch",
+    "index_normalLanguage_german": "Deutsch",
+    "index_normalLanguage_header": "Sprachen",
+    "index_normalLanguage_headerNormal": "Normale Sprachen",
+    "index_normalLanguage_headerProgramming": "Programmier Sprachen",
+
+    "index_examples_header": "Beispiele"
+}

@@ -1,0 +1,251 @@
+/* #region vanilla */
+
+/*
+- CREDITS -
+
+LinkTree - https://linktr.ee/dracofaad
+
+# DO NOT REMOVE THIS.
+*/
+
+@import "navigation-variables.css";
+
+.navigationContainer {
+    background-color: var(--navigation-background);
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    box-shadow: 0 -3px 6px 6px black;
+}
+
+.navigationContainer * {
+    font-family: var(--navigation-font-family);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navigationIconContainer {
+    padding: var(--navigation-icon-padding);
+    margin: var(--navigation-icon-margin);
+}
+
+
+
+.navigationIconContainer a {
+    color: var(--navigation-icon-color);
+    font-size: var(--navigation-icon-size);
+
+    text-decoration: none;
+}
+
+.navigationTabContainer {
+    display: flex;
+}
+
+.navigationTab {
+    display: flex;
+    margin: var(--navigation-button-margin);
+}
+
+.navigationButton {
+    transition: var(--navigation-button-animation);
+    padding: var(--navigation-button-padding);
+    font-size: var(--navigation-button-font-size);
+    background-color: var(--navigation-button-bg);
+    color: var(--navigation-unselected-font-color);
+    border: var(--navigation-button-border);
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navigationButton.navigationSelectedTab {
+    color: var(--navigation-selected-font-color);
+}
+
+.navigationButton:hover {
+    background-color: var(--navigation-button-hover-bg-color);
+}
+
+.navigationButton:active {
+    background-color: var(--navigation-button-click-bg-color);
+    transition: none;
+}
+
+.navigationMenuIconContainer {
+    display: none;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+.navigationMenuButton {
+    background-color: var(--navigation-background);
+    border: none;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navigationMenuButton:active .navigationMenuButtonIcon:not(:hover) {
+    background-color: var(--navigation-button-click-bg-color);
+    transition: none;
+}
+
+.navigationMenuButtonIcon {
+    transition: var(--navigation-button-animation);
+    padding: var(--navigation-menu-button-icon-padding);    
+    background-color: var(--navigation-button-bg);
+
+    pointer-events: none;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.navigationTabContainer {
+    z-index: -1;
+}
+
+
+@media only screen and (max-width: 600px)  {
+    .navigationTabContainer {
+        background-color: var(--navigation-background);
+        padding-top: 60px;
+        padding-bottom: 10px;
+        display: none;
+        width: 100vw;
+        flex-direction: column;
+        position: fixed;
+    }
+
+    .navigationButton {
+        width: 100%;
+        height: 100%;
+        height: 40px;
+    }
+
+    .navigationTab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigationTab:not(:last-child) {
+        margin-bottom: 2px;
+    }
+
+    .navigationMenuIconContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .navigationTabVisible {
+        display: flex;
+    }
+}
+
+/* #endregion */
+
+.navigationLanguageSelector {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.navigationLanguageButton {
+    background-color: var(--navigation-background);
+    border: none;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navigationLanguageButton:hover .navigationLanguageButtonIcon:not(:hover) {
+    background-color: var(--navigation-button-hover-bg-color);
+    transition: 1s;
+}
+
+.navigationLanguageButton:active .navigationLanguageButtonIcon:not(:hover) {
+    background-color: var(--navigation-button-click-bg-color);
+    transition: none;
+}
+
+.navigationLanguageButtonIcon {
+    transition: var(--navigation-button-animation);
+    padding: var(--navigation-menu-button-icon-padding);    
+    background-color: var(--navigation-button-bg);
+
+    pointer-events: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.navigationLanguagePopup {
+    background-color: rgb(28, 28, 28);
+
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+    position: absolute;
+    right: 21px;
+
+    height: auto;
+    max-height: 300px;
+    width: 250px; 
+
+    padding-top: 5px;
+    padding-bottom: 5px; 
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigationLanguagePopup button {
+    background-color: transparent;
+    color: rgb(189, 189, 189);
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.navigationLanguagePopup button:hover {
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+}
+
+.navigationLanguagePopup button:active {
+    cursor: pointer;
+    background-color: rgb(10, 10, 10);
+}
+
+.navigationIconTextMobile {
+    display: none;
+}
+
+@media only screen and (max-width: 350px)  {
+    .navigationLanguagePopup {
+        width: 99%;
+        margin-right: 0;
+        right: 0
+    }
+
+    .navigationIconText {
+        display: none;
+    }
+
+    .navigationIconTextMobile {
+        display: block;
+    }
+}
